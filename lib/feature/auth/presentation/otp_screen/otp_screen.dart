@@ -10,6 +10,7 @@ import '../../../../configs/services/navigation/navigation_service_impl.dart';
 import '../../../../core/widgets/buttons/app_button.dart';
 import 'otp_view_model.dart';
 
+
 class OtpScreen extends ProviderView<OtpViewModel> {
   static final RouteDetails route = RouteDetails('otp_screen', '/otp_screen');
 
